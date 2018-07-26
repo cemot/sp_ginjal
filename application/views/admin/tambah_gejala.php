@@ -1,0 +1,89 @@
+      <section id="main-content">
+          <section class="wrapper">            
+              <!--overview start-->
+			  <div class="row">
+				<div class="col-lg-12">
+					<ol class="breadcrumb">
+						<li><i class="fa fa-home"></i><a href="<?php echo site_url()?>/home">Beranda</a></li>
+						<li><i class="icon_document_alt"><a href="<?php echo site_url()?>/gejala"></i>Gejala</a></li>
+						<li><i class="fa fa-plus"></i>Tambah Data Gejala</li>						  	
+					</ol>
+				</div>
+			</div>
+              
+            <div class="row">
+                  <div class="col-lg-12">
+                      <section class="panel">
+                          <header class="panel-heading">
+                              Tambah Data
+                          </header>
+                          <div class="panel-body">
+                              <div class="form">
+                                  <form class="form-validate form-horizontal" id="feedback_form" action="<?php echo site_url()?>/gejala/create" method="POST">
+                                      <div class="form-group ">
+                                          <label for="id_gejala" class="control-label col-lg-2">ID Gejala <span class="required">*</span></label>
+                                          <div class="col-lg-10">
+                                            <select class="form-control" name="id_gejala" id="id_gejala" required/>
+                                                <option value="">Pilih ID Gejala</option>
+                                                <option value="G01">G01</option>
+                                                <option value="G02">G02</option>
+                                                <option value="G03">G03</option>
+                                                <option value="G04">G04</option>
+                                                <option value="G05">G05</option>
+                                                <option value="G06">G06</option>
+                                                <option value="G07">G07</option>
+                                                <option value="G08">G08</option>
+                                                <option value="G09">G09</option>
+                                                <option value="G10">G10</option>
+                                                <option value="G11">G11</option>
+                                                <option value="G12">G12</option>
+                                                <option value="G13">G13</option>
+                                                <option value="G14">G14</option>
+                                                <option value="G15">G15</option>
+                                                <option value="G16">G16</option>
+                                                <option value="G17">G17</option>
+                                                <option value="G18">G18</option>
+                                                <option value="G19">G19</option>
+                                                <option value="G20">G20</option>
+                                                <option value="G21">G21</option>
+                                                <option value="G22">G22</option>
+                                                <option value="G23">G23</option>
+                                                <option value="G24">G24</option>
+                                                <option value="G25">G25</option>
+                                                <option value="G26">G26</option>
+                                                <option value="G27">G27</option>
+                                                <option value="G28">G28</option>
+                                                <option value="G29">G29</option>
+                                                <option value="G30">G30</option>
+                                              </select>
+                                          </div>
+                                      </div>
+                                      <div class="form-group ">
+                                          <label for="nama" class="control-label col-lg-2">Nama Gejala <span class="required">*</span></label>
+                                          <div class="col-lg-10">
+                                              <input class="form-control " id="nama" type="text" name="nama" required />
+                                          </div>
+                                      </div>
+                                      <div class="form-group ">
+                                          <label for="bobot" class="control-label col-lg-2">Nilai Bobot <span class="required">*</span></label>
+                                          <div class="col-lg-10">
+                                              <input class="form-control " id="bobot" type="text" name="bobot" required />
+                                          </div>
+                                      </div>
+                                      <div class="form-group">
+                                          <div class="col-lg-offset-2 col-lg-10">
+                                              <button class="btn btn-default" type="submit" name="submit">Simpan</button>
+                                              <button class="btn btn-default" type="button"><a href="<?php echo site_url()?>/gejala">Batal</a></button>
+                                          </div>
+                                      </div>
+                                  </form>
+                              </div>
+
+                          </div>
+                      </section>
+                  </div>
+              </div>  
+            
+          </section>
+      </section>
+      <!--main content end-->
